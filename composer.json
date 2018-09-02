@@ -1,0 +1,19 @@
+{
+    "name": "chunc/hello",
+    "description": "echo hello",
+    "authors": [
+        {
+            "name": "qiuchunchao",
+            "email": "qiuchunchao@huishoubao.com.cn"
+        }
+    ],
+    "minimum-stability":"dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Hello\\":"src/"
+        }
+    }
+}
